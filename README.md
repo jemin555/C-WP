@@ -76,7 +76,7 @@ public class index {
   public void main()
 {
 
-HTML.displayhtml("Register.html");
+HTML.displayhtml("BILL.html");
 
 //loosely  coupling  using  C$
 
@@ -465,19 +465,85 @@ String  s12 ="INSERTINTO from electricitybill 0 to "+datas1.size()+" , 1 to 5 ?=
 }
 
 
-Register.html
+BILL.html
 =============
-
 <html>
   <head>
-    <title>STUDENT  REGISTRATION</title>
-    
+    <title>Electricity Bill Calculation</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<style>
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+
   </head>
 
-  <body class="fancy">
-<form action="http://localhost:8090/Programs11.exe" method="post" >
-  
-  //include  oakjava7  file  or  j$  file
+  <body class="fancy" bgcolor=pink>
+<form action="http://localhost:8090/Jquerytest.j$" method="post" >
+
+
 
 <div id="pageContainer">
      
@@ -485,34 +551,34 @@ Register.html
 
         <div id="chaptersAccordion">
 
-            <h2><a href="#chapter1">Enter your   Details</a></h2>
-            <div>
+            <h2><a href="#chapter1">ELECTRICITY BILL CALCULATION</a></h2>
+            <div class="container">
               
 
-<p>Enter  Your Name: <input type="text" name="name" size="25" /></p>
-<p>Enter your Username : <input type="text" name="uname" size="15"/></p>
-<p>Enter  the password : <input type="password" name="password" size="25" /></p>
-<p>Choose your  state  : <input type="text" name="state" size="15"/></p>
-<p>Choose  your  Country  : <input type="text" name="country" size="15"/></p>
+<p>Enter  Your SNO: <input type="text" name="Sno" size="25" /></p>
+<p>Enter your L.N.O : <input type="text" name="Lno" size="15"/></p>
 
-<p>Enter  the   password : <input type="password" name="spwd" size="25" /></p>
-<p>Enter your secret  password text : <input type="text" name="stext" sixe="15"/></p>
+<p>Kindly  Enter  Bill  Details : <input type="text" name="Billdetails" size="100"/></p>
+<p>UNITS USED  : <input type="text" name="Units" size="15"/></p>
 
-<p>Enter  your family details : <input type="text" name="familydet" size="25" /></p>
 
-<p> Enter  Percentage of  marks  scored <input type="text" name="Indent" sixe="5"/></p>
-
-<p>Enter Your Favourite subject <input type="text" name="CIndent" size="15"/></p>
 
 
             </div>
 
 
-<h2><a href="#chapter2">REGISTER</a></h2>
-            <div>
-              <input type="submit" name="Click">
+
+             <div class="container" style="background-color:#f1f1f1">
+              <input type="submit" name="CALCULATE" value="CALCULATE">
 <input type="reset" name="Clear">
             </div>
+
+ <div class="container" style="background-color:#f1f1f1">
+         
+<a href=http://localhost:8090/list.j$> Click here  to  view  ELECTRICITY BILL CUSTOMERS ...
+
+            </div>
+
 
 
 </form>
