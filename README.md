@@ -1,7 +1,7 @@
 # C$WP
 ============
 
-C$WP   stands    for  a    Loosely coupled   remoteweb/web application   focussed  for  CDollar  Professionals for  Mobile web/remoteweb  application. it  is   invented  by  wilmix  jemin j .
+C$WP   stands    for  a    Loosely coupled  Type-0 remoteweb/web application.    it  is   invented  by  wilmix  jemin j .
 
 
 SYNTAX
@@ -9,11 +9,11 @@ SYNTAX
 
 
 
-<?language=C$> //indicates   that  remote  /webapplication   for   mobiles   using  cdollar
+<?language=C$> //indicates   that  remote  /webapplication     using  cjava
 
 
 
-<IMPORT>  java.util.*; //load  cdollar  java util packages.
+<IMPORT>  java.util.*; //load  cjava util packages.
  
 
 <%
@@ -24,11 +24,11 @@ SYNTAX
 public class <Classname> {
 
 
-  public void main() // main function  of  C$
+  public void main() // main function  of  Cjava
 {
 
 
-//loosely  coupling  using  C$
+//loosely  coupling  using  Cjava
 
 @ <looselycoupledvariable>#;
 
@@ -78,7 +78,7 @@ public class index {
 
 HTML.displayhtml("BILL.html");
 
-//loosely  coupling  using  C$
+//loosely  coupling  using  Cjava
 
 @ y#;
 
