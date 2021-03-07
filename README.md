@@ -596,7 +596,7 @@ Advantages
 
 =>It  saves  time  and  cost
 
-=>It has  automatic  garbic  collection.
+=>It has  automatic  garbage  collection.
 
 
 =>It  is  a  pure  oops  language.
