@@ -1,7 +1,9 @@
 # C$WP
 ============
 
-C$WP   stands    for  a    Loosely coupled  Type-0 remoteweb/web application.    it  is   invented  by  wilmix  jemin j .
+C$WP   stands    for  a    Loosely coupled  Type-0 remoteweb/web application.    it  is   invented  by  wilmix  jemin j 
+
+in  JDollar and  J$shell programming language.
 
 
 SYNTAX
